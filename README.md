@@ -14,6 +14,7 @@ A user-friendly, interactive web application for creating, visualizing, and veri
 - [Algorithms/Mathematical Concepts Used](#algorithmsmathematical-concepts-used)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Note](#note)
 
 ## Project Description
 
@@ -32,12 +33,12 @@ At its core, the application implements a complete Merkle tree with SHA-256 hash
 
 Follow these steps to set up the Merkle Tree Visualizer locally:
 
-3. Install the required dependencies:
+1. Install the required dependencies:
    ```bash
    pip install streamlit hashlib graphviz
    ```
 
-4. Ensure you have Graphviz installed on your system:
+2. Ensure you have Graphviz installed on your system:
    - On Ubuntu/Debian: `sudo apt-get install graphviz`
    - On macOS: `brew install graphviz`
    - On Windows: Download and install from [graphviz.org](https://graphviz.org/download/)
@@ -240,9 +241,29 @@ Transaction 5
 
 This example demonstrates how the algorithm correctly handles odd numbers of nodes at each layer, ensuring the tree remains balanced and complete.
 
-| *Screenshot of study plan using example data* |
+| *Sample Step 1: Input Data and Build Tree* |
 |:--:| 
-| ![image](images/3_sample_planning_example_data.png) |
+| ![image](images/sample_step_1.png) |
+
+| *Sample Step 2: Tree Visualization* |
+|:--:| 
+| ![image](images/sample_step_2.png) |
+
+| *Sample Step 3.0: Proof Verification* |
+|:--:| 
+| ![image](images/sample_step_3_0.png) |
+
+| *Sample Step 3.1: Selecting Block to verify* |
+|:--:| 
+| ![image](images/sample_step_3_1.png) |
+
+| *Sample Step 3.2: Block Selected* |
+|:--:| 
+| ![image](images/sample_step_3_2.png) |
+
+| *Sample Step 3.3: Validity of proof* |
+|:--:| 
+| ![image](images/sample_step_3_3.png) |
 
 ## References
 
@@ -378,3 +399,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Academic Resources**: Thanks to the authors of the papers and books cited in the References section for their valuable contributions to the field
 - **Streamlit Community**: For their continuous support and feedback on data visualization applications
 - **Contributor Community**: All individuals who have contributed code, suggestions, and issue reports
+
+## Note
+| AI was used to generate most of the docstrings and inline comments in the code. |
+|:--:| 
