@@ -402,4 +402,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Note
 | AI was used to generate most of the docstrings and inline comments in the code. |
-|:--:| 
+|:--:|
