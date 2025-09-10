@@ -1,21 +1,5 @@
 # Merkle Tree Visualizer
 
-A user-friendly, interactive web application for creating, visualizing, and verifying Merkle trees with cryptographic proof capabilities and graphical representation.
-
-## Table of Contents
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Methodology](#methodology)
-- [Examples](#examples)
-- [References](#references)
-- [Dependencies](#dependencies)
-- [Algorithms/Mathematical Concepts Used](#algorithmsmathematical-concepts-used)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Note](#note)
-
 ## Project Description
 
 The Merkle Tree Visualizer is an interactive web application built with Streamlit that allows users to construct Merkle trees from arbitrary data inputs, visualize the resulting tree structure, generate cryptographic proofs of inclusion, and verify these proofs. Merkle trees are fundamental data structures in cryptography and blockchain technology, providing an efficient way to verify the integrity of data in distributed systems.
@@ -28,6 +12,21 @@ This application serves multiple purposes:
 4. **Blockchain Concept Exploration**: Illustrates one of the core data structures that make blockchain technology possible
 
 At its core, the application implements a complete Merkle tree with SHA-256 hashing, proper handling of odd-numbered node layers, comprehensive proof generation and verification, and an intuitive visualization system that makes complex cryptographic concepts accessible.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Methodology](#methodology)
+- [Examples](#examples)
+- [References](#references)
+- [Dependencies](#dependencies)
+- [Algorithms/Mathematical Concepts Used](#algorithmsmathematical-concepts-used)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Note](#note)
+
+---
 
 ## Installation
 
@@ -401,5 +400,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Contributor Community**: All individuals who have contributed code, suggestions, and issue reports
 
 ## Note
+
 | AI was used to generate most of the docstrings and inline comments in the code. |
 |:--:|
