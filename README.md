@@ -14,6 +14,7 @@ This application serves multiple purposes:
 At its core, the application implements a complete Merkle tree with SHA-256 hashing, proper handling of odd-numbered node layers, comprehensive proof generation and verification, and an intuitive visualization system that makes complex cryptographic concepts accessible.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
